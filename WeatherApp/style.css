@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#main {
+    border: 1px solid black;
+    height: 500px;
+    width: 800px;
+    border-radius: 15px;
+    box-shadow:  5px 5px 5px black;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(2,0,36,1) 0%, rgba(22,67,115,1) 0%, rgba(170,182,198,1) 0%, rgba(193,245,255,1) 100%);
+    
+   
+   
+    
+    
+}
+#inputvalues {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#ispis {
+    padding-top: 10px;
+    
+}
+#insidediv{
+    padding: 10px;
+    font-size: 30px;
+}
+select {
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button {
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 24px;
+    box-shadow: 2px 2px 2px black;
+}
+input {
+    background: transparent;
+    border: 2px solid black;
+}
+p {
+    display: inline;
+}
